@@ -30,3 +30,40 @@ body
     padding: 0 40px;
     box-sizing: border-box;
 }
+
+form .username
+{
+    position: relative;
+    border-bottom: 2px solid ;
+    margin: 30px 0;
+}
+
+.username input
+{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.username label
+{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: silver;
+    transform: translate(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.registrarse
+{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color:blue;
+}
